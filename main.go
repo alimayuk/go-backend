@@ -13,5 +13,6 @@ func main() {
 	database.Connect()
 	app := fiber.New()
 	routes.SetupRoutes(app)
+	app.Static("/uploads", "./uploads")
 	app.Listen(":3000")
 }

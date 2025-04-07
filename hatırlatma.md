@@ -1,0 +1,1 @@
+-- Validasyonların temelleri atıldı. örnk: register, todo oluştur.
